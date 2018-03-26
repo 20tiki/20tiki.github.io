@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="file://cdn.optimizely.com/js/3566901265.js"></script>
+	<script src="file://d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js" data-apikey="ba7d950cda076fcf3b443e3ac09a8c25"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="https://media.freepik.com/img/favicon.ico">
+	<title>Register</title>
+
+	
+		<link href='file://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+		<link href='https://media.freepik.com/accounts/css/profile.css?key=2017110701' rel='stylesheet' type='text/css'>
+		
+	<script type='text/javascript' src='file://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+	<script>window.jQuery || document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>')</script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-19303147-22', 'auto', {'allowLinker': true });
+		ga('send', 'pageview');
+
+		window['optimizely'] = window['optimizely'] || [];
+
+		function track_optimizely_click(evento) { window.optimizely.push(["trackEvent", evento]); }
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+		fbq('init', '1470657753234558');
+		fbq('track', "PageView");
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1470657753234558&ev=PageView&noscript=1"/></noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);mixpanel.init("28a22b7cf07cbca77b89d85b685d82f5");</script>
+</head>
+
+<body class="freepik bg-login">
+	
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<section id="gr_registerbox" class="gr_box register nolo_anime" style="display: block;">
+	<div class="box">
+		<h1 class="no-margin">Sign up</h1>
+
+		<ul class="social social-login social-register-group">
+			<li>&nbsp;</li>
+		</ul>
+
+		<form method="post">
+			<input type="hidden" id="register-facebook_id" name="facebook_id" />
+			<input type="hidden" id="register-google_id" name="google_id" />
+			<input type="hidden" id="register-twitter_id" name="twitter_id" />
+			<input type="hidden" id="register-name" name="name" />
+			<input type="hidden" id="register-language" name="language" />
+			<input type="hidden" id="register-avatar" name="avatar" value="https://profile.freepik.com/accounts/avatar/default_02.png" />
+
+			<img id="register-avatar-img" class="avatar" style="display: none;" />
+
+			<span class="input-group">
+				<input type="text" name="register-username" id="register-username" tabindex="1" autocomplete="off" autofocus autocapitalize="off" autocorrect="off" size="20" />
+				<label for="register-username">Username</label>
+				<a href="javascript:void(0);" class="reset-input">&times;</a>
+			</span>
+
+			<span class="input-group">
+				<input type="email" name="register-email" id="register-email" tabindex="2" autocomplete="off" autocapitalize="off" autocorrect="off" size="20" />
+				<label for="register-email">Email</label>
+				<a href="javascript:void(0);" class="reset-input">&times;</a>
+			</span>
+
+			<span class="input-group password-register-group">
+				<input type="password" name="register-password" id="register-password" tabindex="3" autocomplete="off" autocapitalize="off" autocorrect="off" size="20" />
+				<label for="register-password">Password</label>
+				<a href="javascript:void(0);" class="reset-input">&times;</a>
+			</span>
+
+			<div></div>
+
+			<span class="checkbox-group password-register-group">
+				&nbsp;</span><span class="password-result-container text-right"><span class="short">At least 6 characters</span>
+				<span class="weak">Weak</span>
+				<span class="good">Good</span>
+				<span class="strong">Strong</span>
+			</span>
+
+			<div id="gr_register_recaptcha_container" wid=""></div>
+
+			<a href="../Project/Thanks%20for%20registeration.htm">
+			<input type="button" value="Sign up" name="B3"></a></form>
+		<div class="bottom-links">
+			<span class="terms-of-service pull-right">.</span>
+			<a href="Login.htm">Already registered? Sign in</a>
+		</div><!-- .bottom-links -->
+	</div><!-- .box -->
+</section><!-- #register -->
+	<div class="modal">
+		<input class="modal-state" id="modal" type="checkbox" value="ON" />
+		
+	<script type="text/javascript">
+		var ACCOUNTS_BASE_URL = 'https://profile.freepik.com/';
+		var ACCOUNTS_API_KEY = 'aHR0cHM6Ly9wcm9maWxlLmZyZWVwaWsuY29t';
+		var FACEBOOK_APP_ID = '102556336476545';
+		var GOOGLE_CLIENT_ID = '645947318004-vpkoa2nspdlg3ehvrelfkaqekvjqmo4q.apps.googleusercontent.com';
+		var GOOGLE_API_KEY = 'AIzaSyDXxs5V0QdmQlNhgPiTB61IQM0lQntZqZM';
+		var LANGUAGE = 'english';
+		var LANGUAGE_SHORT = 'en';
+		var LANGUAGE_LOCALE = 'en';
+		var LANGUAGE_LOCALE_GR = 'english';
+		var RE_CAPTCHA_API_KEY = '6LdrxggTAAAAAEsVEMxap24sSkGS1nI3SsOigFyF';
+				var BPLAN_MONTH = "P-3VD42301CK2620626TPN62BA";
+		var BPLAN_YEAR  = "P-82N07975CB2667054TPNWQJQ";
+			</script>
+
+	<script type='text/javascript' src='file://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'></script>
+	<script type='text/javascript' src='https://media.freepik.com/accounts/js/jquery.stuff.js?key=2017110701'></script>
+	<script type='text/javascript' src='https://media.freepik.com/min/?g=auth_js&key=2017110701'></script>
+	<script type="text/javascript">
+	if ('freepik' == 'freepik') {
+		mixpanel.init("28a22b7cf07cbca77b89d85b685d82f5", {
+			loaded: function() {
+				landing         = mixpanel.get_property('landing') || false;
+				// Solo aquellos que han pasado por landing
+				if (false != landing) {
+					mixpanel.track("view_login");
+				}
+			}
+		});
+	} else {
+		mixpanel.track("view_login");
+	}
+	</script>
+
+	<script type='text/javascript' src='https://media.freepik.com/accounts/js/login.js?key=2017110701'></script>	
+		<div class="modal-window">
+			<div class="modal-inner">
+				<label class="modal-close" for="modal"></label>
+				<div id="modal-container">
+					<a href="../Project/Thanks%20for%20registeration.htm"><iframe id="modal-iframe" src="javascript:;"></iframe>
+					</a></div>
+			</div>
+		</div>
+	</div>	</body>
+</html>

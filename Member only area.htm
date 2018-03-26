@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<!
+function Login(){
+var done=0;
+var username=document.login.username.value;
+username=username.toLowerCase();
+var password=document.login.password.value;
+password=password.toLowerCase();
+if (username=="member1" && password=="password1") { window.location="page1.html"; done=1; }
+if (username=="member2" && password=="password2") { window.location="page2.html"; done=1; }
+if (username=="member3" && password=="password3") { window.location="page3.html"; done=1; }
+if (done==0) { alert("Invalid login!"); }
+}
+// End -->
+</SCRIPT>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Members-Only Area</title>
+</head>
+
+<body>
+<center>
+<form name=login>
+<table width=225 border=1 cellpadding=3>
+<tr><td colspan=2><center><font size="+2"><b>Members-Only Area!</b></font></center></td></tr>
+<tr><td>Username:</td><td><input type=text name=username></td></tr>
+<tr><td>Password:</td><td>
+	<input type=password name=password size="20" tabindex="30"></td></tr>
+<tr><td colspan=2 align=center><input type=button value="Login!" onClick="Login()"></td></tr>
+</table>
+</form>
+</center>
+<p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial">
+Username: millenium</p>
+<p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial">
+<font style="background-color: rgb(255, 255, 255)">Password: millenium</font></p>
+</body>
+
+</html>
